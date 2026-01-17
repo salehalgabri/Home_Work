@@ -1,0 +1,19 @@
+Question 10
+Explain what happens if you try to use a variable before it is declared in Dart.
+
+
+An error will occur, and the error message will be:
+
+Error: Non-nullable variable 'temp' must be assigned before it can be used.
+
+This is because we haven't initialized the variable or assigned it a value,
+so its value is null. Dart has a unique feature that warns you in the compiletime
+if a variable has a null value. If we want to print this variable,
+we must add a question mark ("?") after defining the variable.
+This mark indicates that the variable is allowed to hold a null value,
+and the variable can be printed without any problems.
+
+Here is the code to illustrate the example:
+
+int? temp;
+print(temp);

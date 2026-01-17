@@ -1,0 +1,5 @@
+Question 8
+What is the difference between the num and double data types in Dart?
+
+We use the "double" data type when we want to assign decimal numbers and don't want an integer number.
+We use "num" when we want to assign decimal numbers or integer numbers.

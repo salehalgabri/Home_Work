@@ -1,0 +1,10 @@
+Question 7
+Given this code, identify any errors and explain why they occur: ```dart void main()
+{ String name = "Alice"; name = 123; print(name); } ```
+
+
+The error occurs in the variable "name" which was assigned a
+value of type integer, while this variable is of type string.
+
+The variable was defined as a string, which is now locked in memory
+and cannot be changed once its data type has been defined.

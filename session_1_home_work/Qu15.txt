@@ -1,0 +1,11 @@
+Question 15
+What does it mean for Dart to be a statically-typed language, and how does it
+impact the way variables are used?
+
+When we say a programming language is statically typed,
+it means that the data types are fixed before the code runs at 
+compile-time, not during program execution.
+
+This has a positive effect, allowing us to
+detect errors before the program runs and protecting
+variables from being changed from one data type to another.

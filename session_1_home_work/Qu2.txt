@@ -1,0 +1,6 @@
+Question 2
+Explain the purpose of the main function in a Dart application.
+
+The main purpose of the `main` function is that when the compiled program in Dart is running,
+it looks for the `main` function, which is where the compiler will begin executing the program.
+Without it, we cannot write the code. This is where we write the code.
