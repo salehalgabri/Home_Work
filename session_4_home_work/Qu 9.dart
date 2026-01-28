@@ -1,0 +1,16 @@
+/**
+ * Q9
+Create a program with a page path stored in a variable. If the path is '/', print Home. For any other
+value, print 404.
+ */
+
+void main() {
+  
+  String path = "";
+
+  if (path == "/"){
+    print('Home Page');
+  }else {
+    print("Page Not Found, Error Code: 404");
+  }
+}
