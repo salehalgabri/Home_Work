@@ -81,7 +81,7 @@ class WireframeApp extends StatelessWidget {
                         child: Column(
                           children: [
                             Container(height: 46, color: Colors.purple.shade300),
-                            const SizedBox(height: 8),
+                            Container(height: 8, color: Colors.purple.shade100),
                             Container(height: 46, color: Colors.purple.shade300),
                           ],
                         ),
