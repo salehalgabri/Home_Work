@@ -7,8 +7,8 @@ class ListNode {
 
 class Solution {
   ListNode? reverseList(ListNode? head) {
-    ListNode? prev = null; 
     ListNode? curr = head; 
+    ListNode? prev = null; 
 
     while (curr != null) {
       ListNode? nextTemp = curr.next; 
