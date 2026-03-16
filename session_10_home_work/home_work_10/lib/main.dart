@@ -88,7 +88,6 @@ class WireframeApp extends StatelessWidget {
                       ),
                       const SizedBox(width: 8),
                       Expanded(child: Container(height: 100, color: Colors.purple.shade200)),
-                      const SizedBox(width: 8),
                       Expanded(child: Container(height: 100, color: Colors.purple.shade50)),
                     ],
                   ),
